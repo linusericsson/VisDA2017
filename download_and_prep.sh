@@ -5,5 +5,4 @@ wget http://csr.bu.edu/ftp/visda17/clf/test.tar && tar xvf test.tar && rm test.t
 wget https://raw.githubusercontent.com/VisionLearningGroup/taskcv-2017-public/master/classification/data/image_list.txt
 
 echo "preparing segmentation track - test only"
-wget http://csr.bu.edu/ftp/visda17/seg/test.zip
-tar xvf test.zip
+wget http://csr.bu.edu/ftp/visda17/seg/test.zip && unzip test.zip && rm test.zip
